@@ -1,0 +1,60 @@
+.footer-container{
+    background-color: rgb(26, 25, 25);
+    padding:50px 50px 0 50px;
+    color:white;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin:0;
+}
+
+.foot-left{
+    max-width: 33%;
+    margin:20px;
+}
+.foot-center{
+    max-width:33%;
+    margin:20px;
+    
+}
+.foot-right{
+    max-width: 33%;
+    margin:20px;
+}
+
+.foot-heading{
+    font-size: 1.5rem;
+}
+
+.foot-body{
+    color:gray;
+    display: flex;
+}
+
+.foot-line{
+    max-width:70px;
+    min-width: 50px;
+    margin-bottom: 20px;
+    height:2px;
+    background-color:#fff
+}
+
+@media screen and (max-width: 569px){
+    .footer-container{
+        display: block;
+    }
+    .foot-left{
+        max-width: 80%;
+        margin:10px;
+    }
+    .foot-center{
+        max-width:80%;
+        margin:10px;
+        
+    }
+    .foot-right{
+        max-width: 80%;
+        margin:10px;
+    }
+}

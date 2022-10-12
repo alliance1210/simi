@@ -1,0 +1,78 @@
+.sec4-container{
+    background-image: url(../../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+    background-blend-mode: lighten;
+}
+
+.sec4-title{
+    display:flex;
+    min-height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4-title h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.sec4-body{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:10px;
+    min-height: 50vh;
+}
+
+.sec4-card{
+    background-color: inherit!important;
+    margin:20px;
+    max-height: 300px;
+    max-width: 350px;
+    font-size: 1.5rem;
+    padding:5px;
+    font-weight: 200;
+    box-shadow: 0 0 10px 1px rgb(23, 23, 23);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+.sec4-cardtitle{
+    margin: 10px 0 10px 0;
+    color:orange;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.sec4-line{
+    width: 80%;
+    margin:5px auto;
+    
+    background-color: rgb(132, 131, 131);
+    height: 0.5px;
+    border-radius: 4px;
+}
+.sec4-cardbody{
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin:1rem 0 2rem 0;
+}
+.sec4-link{
+    font-weight: 400;
+    text-align: right;
+}
+.sec4-link:hover{
+    cursor: pointer;
+}

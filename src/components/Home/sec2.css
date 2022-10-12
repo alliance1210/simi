@@ -1,0 +1,48 @@
+.sec2-container{
+    display:flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    padding:0 100px 100px 100px;
+    background-color: #212529;
+    color: #fff;
+}
+.sec2-left{
+    
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 1.2rem;
+    margin:20px;
+}
+.simmi{
+    color:orange
+}
+
+/* .sec2-right{
+    max-width:25vw;
+    margin-left:100px
+    
+} */
+.sec2-right img{
+    max-width: 400px;
+}
+
+@media screen and (max-width: 1013px){
+    .sec2-container{
+        flex-wrap: wrap;
+    }
+    .sec2-left{
+        text-align: start;
+    }
+}
+@media screen and (max-width: 768px){
+    .sec2-left{
+        width: 100%;
+        margin: 20px 0 20px 0
+    }
+    .sec2-container{
+        padding:0 20px
+    }
+}

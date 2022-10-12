@@ -1,0 +1,17 @@
+/* .s1-container{
+    height: 90vh;
+    width:100%;
+} */
+.s1-item{
+    height:90vh;
+    width: 100%;
+}
+.s1-item img{
+    height: 100%;
+}
+
+@media screen and (max-width: 475px){
+    .s1-item{
+        height:50vh;
+    }
+}

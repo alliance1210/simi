@@ -1,0 +1,24 @@
+.home-container{
+    background-color: whitesmoke;
+    min-height: 500px;
+    width: 100%;
+    margin:0;
+}
+.scrolltop{
+    background-color: gray;
+    min-height: 50px;
+    min-width: 50px;
+    position: fixed;
+    top: 90%;
+    left:100%;
+    transform: translateX(-120%) ;
+    color: white;
+    border-radius: 5px;
+    opacity: .7;
+    border-color: gray;
+}
+
+.scrolltop:hover{
+    opacity: 1;
+    cursor: pointer;
+}
